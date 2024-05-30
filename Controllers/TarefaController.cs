@@ -11,7 +11,7 @@ namespace TrilhaApiDesafio.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TarefaController : ControllerBase
+    public class TarefaController :ControllerBase
     {
         private readonly OrganizadorContext _context;
 
